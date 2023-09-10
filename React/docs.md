@@ -20,7 +20,9 @@
 -https://babeljs.io
 
 # -------------------Explanations----------------
-##Install React App (use this to hide complex configurations from babel)
+
+```
+Install React App (use this to hide complex configurations from babel)
 npm i -g create-react-app
 npm i -g create-react-app@xxxx <-------------When Specify versions
 
@@ -29,6 +31,7 @@ npx create-react-app my-app
 
 npm start <----------- start the environment
 npm eject <----------- to show complex configuration (cannot undone) and customize configurations
+```
 
 # -----------------ES6 Refresher--------------
 
