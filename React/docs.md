@@ -5,14 +5,15 @@
 3. create-react-app my-app or npx reate-react-app my-app (use npx if it's not accessible)
 4. npm start
 
------------------TOOLS----------------------
+# -----------------TOOLS----------------------
 
 ## VScode Editor extensions
 
--Simple React Snippets
--Pretier
-vs-code-setting: "editor.formatOnSave": true
--Simple React Snippets
+- Simple React Snippets
+- Pretier
+    add in vs-code-setting:
+    ``"editor.formatOnSave": true``
+- Simple React Snippets
 
 ## Convert babel to react
 
@@ -31,9 +32,9 @@ npm eject <----------- to show complex configuration (cannot undone) and customi
 
 # -----------------ES6 Refresher--------------
 
-- Use **let** and **const** only. **let** if you need to change the value. Use **var** only when this is not accessible or any valid reasons.
+- Use **let** and **const** only. **let** if you need to change the value. Use **var** only when **this** is not accessible or any valid reasons.
 - **this** is not always available. Use **bind** instead.
-- **bind** is to use when this is not accessible especially when wrapping some standalone javascript fuinctions.
+- **bind** is to use when **this** is not accessible especially when wrapping some standalone javascript fuinctions.
 - **Arrow function** (=>) don't rebind the this keywork.
 - **array map** (colors.map) modified the array into new array values like concatenating in every array data.
 - **Object destructuring** (const {name, age:a } = person;) to remove repeative initialization/codes.
